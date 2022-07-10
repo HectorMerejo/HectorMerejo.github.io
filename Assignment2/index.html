@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Assignment 2 by Hector Merejo</title>
+
+  </head>
+  <body>
+
+    <nav>
+  <ul>
+    <li>
+        <a href="#home">HOME</a>
+    </li>
+    <li>
+        <a href="#about">ABOUT</a>
+    </li>
+    <li>
+        <a href="#book">BOOK</a>
+    </li>
+    <li>
+        <a href="#contact">CONTACT</a>
+    </li>
+
+  </ul>
+  </nav>
+
+
+  <br>
+
+  <div class="main">
+      <div class="scrollBoxDiv">
+
+        <!-- Scroll box  -->
+        <div class=scrollBox id = "about">
+
+          <h1 title="Main Title"> <mark>Assignment 1</mark></h1>
+
+          <br>
+
+            <p><div>Hey! It looks likes a paragraph, but there is a block/box here too.
+            Find that HTML element other then &ltp&gt and &lth&gt</div></p>
+
+            <br>
+
+            <p><b>This is a website about New York City</b></p>
+
+            <br>
+
+             <a href="https://en.wikipedia.org/wiki/New_York_City">
+             <p>Click the photo of NYC or click here to learn about NYC</p>
+             <img width="75%" src="NYC.jpeg" alt="new york city"></a>
+
+           <hr>
+           <br>
+
+           <p><b>NYC CLIP</b></p>
+
+             <video width="75%" src="NYC.mp4" controls poster="NYCposter.jpeg">
+             </video>
+
+           <hr>
+
+           <h3>Email me by clicking on: </h3>
+             <a href = "mailto:HMerejojr@gmail.com" > Hector Merejo </a>
+             <br>
+             <p><b>Use these search engines to learn more about NYC:</b></p>
+             <a href="https://www.google.com"> Google </a>
+             <br>
+             <a href="https://www.yahoo.com/"> Yahoo </a>
+
+        </div>
+
+      </div>
+
+          <br>
+        <div class="imgTextDiv">
+
+                      <!-- IMG DIV -->
+
+          <div class="imgDiv" id = "contact">
+            <img class="img2" src="SmokeyNYC.jpeg" alt="Picture of NYC">
+          </div>
+
+                      <!-- TEXT DIV -->
+          <div class="textGrpDiv" id = "book">
+
+            <div style="background-color:hotpink" class="textDiv">
+              <p style="font-family: Arial">This is the hotpink paragraph, font family is Arial.</p>
+            </div>
+
+            <div style="background-color:pink" class="textDiv">
+              <p style="font-family: Courier">This is the pink paragraph, font family is Courier</p>
+            </div>
+
+            <div style="background-color:lightpink" class="textDiv">
+              <p style="font-family: Corsiva">This is the lightpink paragraph, font family is Corsiva</p>
+            </div>
+
+            <div class="popup" id="popup-1">
+
+              <div class="content">
+                <div class="close-btn" onclick="togglePopup()">&times;</div>
+                <h1>You clicked the button!</h1>
+                <br>
+                <p>Popup Window!</p>
+                <br>
+              </div>
+            </div>
+
+            <div class="buttonDiv" id = "home">
+              <button onclick="togglePopup()">This is a button</button>
+            </div>
+
+          </div>
+
+        </div>
+
+  </div>
+
+  <p class="p1">Study button, input, form, and textarea elements</p>
+
+
+  </body>
+</html>
